@@ -37,7 +37,7 @@ genesis.json<br />
 Creating the blockchain.<br />
 <b>geth --datadir /home/privateeth init genesis.json</b><br />
 
-<h2>3. Starting private node/</h3>
+<h2>3. Starting private node</h3>
 
 <b>geth --datadir /home/privateeth/ --networkid 45421 --verbosity 3 -ipcdisable --rpc --port 40301 --rpcport 8545 --rpcaddr 127.0.0.1 --rpcapi="db,eth,net,web3,personal,web3" --gasprice 0  console 2>> /home/privateeth/eth.log</b><br /> 
 
